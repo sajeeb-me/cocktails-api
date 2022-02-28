@@ -1,0 +1,17 @@
+body{
+    background-color: #212529;
+    height: 90vh;
+}
+main{
+    background-color: #2A2E32;
+    padding: 120px;
+}
+.heading-one{
+    font-size: 90px;
+}
+#search-btn {
+    background-color: #FE413C;
+}
+.span {
+    color: #FE413C;
+}
