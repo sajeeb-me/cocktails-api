@@ -5,6 +5,7 @@ body{
 main{
     background-color: #2A2E32;
     padding: 120px;
+    border-radius: 10px;
 }
 .heading-one{
     font-size: 90px;
