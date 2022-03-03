@@ -1,0 +1,25 @@
+.back-background {
+    background-color: #2A2E32;
+}
+
+body{
+    background-color: #212529;
+    height: 90vh;
+}
+#search-btn {
+    background-color: #FE413C;
+}
+#header-cont {
+    width: 800px;
+}
+.col:hover{
+    cursor: pointer;
+}
+.card{
+    background-color: #2A2E32;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.item-image{
+    border-radius: 20px;
+}

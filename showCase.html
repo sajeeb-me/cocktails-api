@@ -12,16 +12,50 @@
     <link rel="stylesheet" href="./css/showCase.css">
 </head>
 
-<body>
-    <header>
-        <section>
-            <div class="border rounded-pill w-75 d-flex justify-content-between mb-4">
-                <input id="input" class="w-100 bg-transparent border-0 py-3 px-4 fs-4 text-white rounded-pill"
-                    type="text" placeholder="Search">
-                <button id="search-btn" class="fs-4 py-3 px-5 border-0 rounded-pill text-white">Search</button>
+<body class="text-white">
+    <header class="my-3">
+        <section id="header-cont" class="container">
+            <div class="border rounded-pill d-flex justify-content-between">
+                <input id="input" class="w-100 bg-transparent border-0  px-4 fs-5 text-white rounded-pill" type="text"
+                    placeholder="Search">
+                <button id="search-btn" class="fs-4 py-2 px-5 border-0 rounded-pill text-white">Search</button>
             </div>
         </section>
     </header>
+    <!-- show items  -->
+    <main class="container">
+        <!-- Vertically centered scrollable modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+        </button>
+
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="back-background modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- show case items  -->
+        <section class="my-5">
+            <div id="show-case-items" class="row row-cols-1 row-cols-md-3 g-4">
+
+            </div>
+        </section>
+    </main>
 
 
 
